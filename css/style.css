@@ -11,6 +11,8 @@ body {
 	margin: auto;
 	background-color:#2cb8e7;
 	padding: 8px;
+	border: 3px solid white;
+	border-radius: 5px 0px 5px 0px;
 
 }
 
@@ -24,6 +26,7 @@ nav {
   display: flex;
   height: 1em;
   list-style-type: none;
+  transform: translate(13%,10%);
 }
 
 nav li {
@@ -36,9 +39,11 @@ nav li {
 }
 
 #iniciar {
-	transform: translate(20%,10%);
+	transform: translate(115%,10%);
 	background-color: white;
+	margin:10px;
 }
+
 
 .restaurar{
 	margin-top: 16px;
